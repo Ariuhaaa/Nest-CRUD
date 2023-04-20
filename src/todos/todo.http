@@ -1,0 +1,33 @@
+### 
+POST  http://localhost:3000/todo
+Content-Type: application/json
+
+{
+   
+  "taskName": "hdfdfdghgfdsdfsgdfbui",
+  "createdDate": "2022-04-20",
+  "isDone": false,
+  "title": "hihi",
+  "completed": false
+}
+
+###
+GET http://localhost:3000/todo
+
+
+###
+PATCH  http://localhost:3000/todo/6440a53604d2fd2dc3f046ae
+Content-Type: application/json
+
+{
+  "taskName": "test ari",
+  "createdDate": "2022-04-20",
+  "isDone": false,
+  "title": "hihi",
+  "completed": false
+}
+
+###
+DELETE   http://localhost:3000/todo/6440a50604d2fd2dc3f046aa
+
+
